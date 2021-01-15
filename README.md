@@ -32,7 +32,7 @@ Column Dictionary :
 * Transfer To : for transfer of material that need further process
 * Tapping To : for tranfer to continuous casting 
 
-Case 1 : kettle 1 first and second batch indicate that cc1 have conflict time with other, as we can see the detail conflict below:
+Case 1 : kettle 1 first and second batch indicate that cc1 have conflict time with other(indicate the red cell in "tapping to" column), as we can see the detail conflict below:
  
  ![Figure 1](https://github.com/boxside/Lead_Smelter-s_Production_Time_Estimator/blob/main/6.png)
  
@@ -42,7 +42,7 @@ Case 1 : kettle 1 first and second batch indicate that cc1 have conflict time wi
 * Queue No. : number of queue of continuous casting that want to tapping to
 
 as we can see, k1a(kettle 1 ,1st batch) process is done at 01:15. it get number of queue is 7, which is must tapping after queue no 6, but no 6 tapping done in 02:00,
-to prevent this conflict(indicate the red cell in "tapping to" column) we need make k1a waiting to 02:00 (45mins) to tapping. it's still under the waiting limit (1 hour), then we have to input waiting time to 
+to prevent this conflict we need make k1a waiting to 02:00 (45mins) to tapping. it's still under the waiting limit (1 hour), then we have to input waiting time to 
 this form and results as follow : 
  
   ![Figure 1](https://github.com/boxside/Lead_Smelter-s_Production_Time_Estimator/blob/main/1.png)
